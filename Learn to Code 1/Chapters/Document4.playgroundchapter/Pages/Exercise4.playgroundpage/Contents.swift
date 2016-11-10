@@ -6,15 +6,15 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Use a function, a loop, and a condition to collect gems or activate switches.
+ **目标:**使用方法、循环和条件语句来收集宝石或激活开关。
  
-In this puzzle, every other forward movement might lead to a gem, a switch, or nothing at all. When you run the puzzle, the [wireframes](glossary://wireframe) show the locations where items might appear. To solve the puzzle, you could write lots of [``if`` statements](glossary://if%20statement), but there’s a better way.
-
-Start by breaking the puzzle into its basic patterns. There are three major paths, each with two possible gem or switch locations.
+ 在这个迷阵里，每次向前移动有可能碰到一块宝石、或开关、或是什么都没有。当你运行这个变阵，[线框图](glossary://wireframe)显示宝石或开关出现的位置。解决这个谜阵，你可以这与很多[``if``语句](glossary://if%20statement)，但是有更好的方法。
  
-1. steps: Using an `if` statement, define the `collectOrToggle()` [function](glossary://function) to check the contents of a tile.
-2. Below your function definition, call `collectOrToggle()` and other commands to solve the puzzle.
-*/
+ 你先把这个谜阵分成不同的三个路径，每一个路径都会有两个位置，在这个两个位置可能出现宝石或开关。
+ 
+ 1. 步骤:使用`if`语句，定义`collectOrToggle()` [function](glossary://function)函数来检查方格是内容。
+ 2. 在你的方法定义下，调用`collectOrToggle()`和其它命令来解决这个谜阵。
+ */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, isOnOpenSwitch, moveForward(), isOnGem, isOnClosedSwitch, turnLeft(), collectGem(), toggleSwitch(), turnRight(), if, func, for)

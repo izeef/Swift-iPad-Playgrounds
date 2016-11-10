@@ -6,17 +6,17 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** Use an `if` statement to trigger a sequence of commands if your character is on a gem.
+ **挑战:** 如果你的角色上面有宝石，使用`if`语句来触发一系列指令。
  
-Congratulations! You've learned how to write [conditional code](glossary://conditional%20code) using [`if` statements](glossary://if%20statement) and [`else if` blocks](glossary://else%20if%20block).
+ 恭喜你！你已经学会[条件代码](glossary://conditional%20code)里的[`if`语句](glossary://if%20statement)和[`else if` 代码块](glossary://else%20if%20block)。
  
-A condition like `isOnGem` is always either **true** or **false**. This is known as a [Boolean](glossary://Boolean) value. Coders often use Boolean values with [conditional code](glossary://conditional%20code) to tell a program when to run certain blocks of code.
+ `isOnGem`条件要么为**真**或**假**。我们称之为[布尔](glossary://Boolean) 值。程序员经常使用布尔值作为[条件代码](glossary://conditional%20code)的条件来选择哪段代码来执行。
  
- 1. steps: In the `if` statement below, use the Boolean condition `isOnGem` and add commands to run if the condition is true.
- 2. Modify or keep the existing [`else` block](glossary://else%20block) to run code if your Boolean condition is false.
- 3. If necessary, tweak the number of times your `for` loop runs. 
-
-*/
+ 1. 步骤:在以下的`if`语句，使用布尔条件`isOnGem`并在条件为为真时加入一些指令。
+ 2. 使用[`else`块](glossary://else%20block)来加入一些布尔条件为假时的代码。
+ 3. 如果必要，优化一下循环的次数。
+ 
+ */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, isOnOpenSwitch, isOnGem, isOnClosedSwitch, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight(), if, func, for)

@@ -6,12 +6,12 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** Factor your code well with conditions, functions, and loops.
+ **挑战:** 在你的代码里使用条件、方法和循环。
  
-For this challenge, your character is surrounded by a grid of possible gem or switch locations. Figure out how to move to the right locations to collect gems and toggle switches open.
-
-You'll need functions, loops, and conditions.
-*/
+ 在这个挑战里，你的角色被许多带来宝石或开关的格子包围了。想出办法移动你的角色到正确的位置收集或切换开关。
+ 
+ 你需要使用到方法、循环和条件。
+ */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, isOnOpenSwitch, isOnGem, isOnClosedSwitch, isBlocked, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight(), if, func, for)

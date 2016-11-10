@@ -6,12 +6,12 @@
 //
 //#-end-hidden-code
 /*:
- **Challenge:** Test the state of the world to change your route.
+ **挑战:** 根据不同的状态改变你的路线。
  
-For this last challenge, you need to collect the gems and toggle the switches along the center platform, but several paths take you away from it.
-
-You can use [conditional code](glossary://conditional%20code) to detect whether your character is on a gem or a closed switch, and take a different action **if** your character is on one instead of the other. 
-*/
+ 在这个挑战里，你需要在平台的中心收集宝石和切换开关，但是有几种路让你远离中心。
+ 
+ 你可以使用[条件代码](glossary://conditional%20code)来测试你的角色是在宝石下还是在开关上，并且在不同的情况下采用不同的方法。
+ */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, isOnOpenSwitch, isBlocked, moveForward(), turnLeft(), collectGem(), toggleSwitch(), turnRight(), if, func, for, isOnGem, isOnClosedSwitch)
