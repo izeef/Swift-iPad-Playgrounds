@@ -6,19 +6,19 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Use [``if``](glossary://if%20statement) and [`else if`](glossary://else%20if%20block) to toggle a switch or collect a gem.
+ **目标:** 使用 [``if``](glossary://if%20statement)和 [`else if`](glossary://else%20if%20block)切换开关或收集宝石.
  
-Again, try running the puzzle a few times, and you'll find that switches and gems both appear in random places.
-
-To figure out whether to toggle a switch or collect a gem, use an [`if` statement](glossary://if%20statement) to check one possible condition and an [`else if` block](glossary://else%20if%20block) to check the other.
-
-The new ``isOnGem`` condition will help determine whether your character is on a gem.
+ 试着运行这个迷阵几次，你会发现开关和宝石随机的出现不同的方格里。
  
- 1. steps: Move to the first randomized tile, then add an `if` statement.
- 2. In your code, tap the word `if` and then tap "Add `else if` Statement" to add an `else if` block.
- 3. Enter code to toggle the switch open if on a closed switch, and to collect a gem if on a gem.
- 4. Repeat for the second tile.
-*/
+ 为了知道是切换开关还是收集宝石使用[`if`语句](glossary://if%20statement)检查其中一个可能条件，并用[`else if`块](glossary://else%20if%20block)检查另一个可能的条件
+ 
+ 新的``isOnGem``条件决定贝塔是否在宝石上
+ 
+ 1. 步骤: 先解决第一个随机方格，点击可点的区域，然后加入`if`语句。
+ 2. 再点击`if`语句，这时会弹出一个提示栏，选择"Add `else if` Statement"。
+ 3. 使用条件判断在关的开关上使用切换和在有宝石的地方收集宝石。
+ 4. 重复以上来解决第二个方格
+ */
 //#-hidden-code
 playgroundPrologue()
 //#-end-hidden-code

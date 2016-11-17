@@ -6,20 +6,20 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Use the OR operator to adjust your path if either of two conditions is true.
+ **目标:** 如果两个条件有一个条件为真时，使用或运算符调整你的路线。
  
-The last logical operator is the [logical OR operator (||)](glossary://logical%20OR%20operator), which combines two [Boolean](glossary://Boolean) conditions and runs your code if *at least* one is true. For example, in the following code, either `isOnGem` OR `isBlockedLeft` must be true.
+ 最后一个逻辑运算符是逻辑或运算符，它可以结合两个布尔条件并在两个条件有一个为真是运行代码。例如，在以下代码中只要`isOnGem`或`isBlockedLeft`中有一个为真即可。
  
      if isOnGem || isBlockedLeft {
-         moveForward()
+     moveForward()
      }
  
- If neither condition is true, the code doesn't run. If one or both are true, the code runs.
+ 如果没有一个为真，则代码不会运行。如果一个或两个都为真，代码运行。
  
- 1. steps: Use the || operator to check whether one of two conditions is true. Hint: You may be blocked either in the front or on the left.
- 2. If either is true, turn right and move forward.
- 3. If neither is true, move forward.
-*/
+ 1. 步骤: 使用||运行符检查两者中有一个为真。提示：你要么不能向前或向左移动。
+ 2. 如果有一个条件为真，向右转并向前移动。
+ 3. 如果两个条件都不为真，向前移动。
+ */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, isOnOpenSwitch, moveForward(), turnLeft(), turnRight(), collectGem(), toggleSwitch(), isOnGem, isOnClosedSwitch, isBlocked, isBlockedLeft, if, func, for, !, &&, ||)

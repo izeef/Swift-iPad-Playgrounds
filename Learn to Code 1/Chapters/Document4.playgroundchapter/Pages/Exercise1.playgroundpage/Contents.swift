@@ -14,10 +14,9 @@
  
  使用``isOnClosedSwitch``作为`if`语句的**条件**，这样你可以控制贝塔只打开关闭的开关。
  
- 
- if isOnClosedSwitch {
- toggleSwitch()
- }
+     if isOnClosedSwitch {
+     toggleSwitch()
+     }
  
  1. 步骤: 移动到第一个开关。
  2. 从快捷栏里找到`if`并点击就会加入一个`if`语句。

@@ -5,7 +5,7 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Checking This AND That</string>
+	<string>使用逻辑与来判断</string>
 	<key>Description</key>
 	<string>Description</string>
 	<key>Hints</key>

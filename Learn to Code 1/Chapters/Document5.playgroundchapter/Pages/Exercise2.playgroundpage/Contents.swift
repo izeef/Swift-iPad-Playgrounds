@@ -6,22 +6,22 @@
 //
 //#-end-hidden-code
 /*:
- **Goal:** Use the AND operator to combine two conditions and adjust your path if both are true.
+ **目标:** 使用与运算符结合两个条件并在两个两件都为真是调整你的路线。
  
-The [logical AND operator (&&)](glossary://logical%20AND%20operator) combines two [Boolean](glossary://Boolean) conditions and runs your code only if *both* are true. For example, in the following code, `isBlocked` AND `isOnClosedSwitch` must both be true.
+ [逻辑与运算符](glossary://logical%20AND%20operator)结合两个[布尔](glossary://Boolean)条件并在两个条件都为真是运行代码。例如，在以下代码中，`isBlocked`和`isOnClosedSwitch`必须都为真。
  
-    if isBlocked && isOnClosedSwitch {
-        toggleSwitch()
-    }
+     if isBlocked && isOnClosedSwitch {
+     toggleSwitch()
+     }
  
-  * callout(New Condition!):
-
-     The [Boolean](glossary://Boolean) condition `isBlockedLeft` is **true** if you *can’t* move forward 1 tile to the left and **false** if you can make that move.
+ * callout(新的条件!):
  
-1. steps: Add an `if` statement in the `for` loop, then add a condition to check whether your character is on a gem.
-2. Use the keyboard to add a space. In the shortcut bar, tap **`&&`**, then add a second condition.
-3. If your character is on a gem AND blocked on the left, turn right and collect the gem. Otherwise, if on a gem, collect it.
-*/
+    [布尔](glossary://Boolean)条件`isBlockedLeft`在你*不能*向左移动动时为**真**，在你可以移动时为**假**。
+ 
+ 1. 步骤:在`for`循环里加入一个`if`语句，然后加入一个条件判断你的角色是否在宝石上。
+ 2. 用键盘键入一个空格。在快捷栏上，点击**`&&`**，然后再加入第二个条件。
+ 3. 如果你的角色在宝石上并且不能向左移动时，转右并收集宝石。如果只是在宝石上，则只收集宝石。
+ */
 //#-code-completion(everything, hide)
 //#-code-completion(currentmodule, show)
 //#-code-completion(identifier, show, isOnOpenSwitch, moveForward(), turnLeft(), turnRight(), collectGem(), toggleSwitch(), isOnGem, isOnClosedSwitch, isBlocked, isBlockedLeft, if, func, for, !, &&)
